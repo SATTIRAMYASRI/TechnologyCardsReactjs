@@ -1,0 +1,72 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Write CSS code here. */
+.card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 90px;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  min-width: 400px;
+}
+
+.card-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: left;
+}
+.card-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: left;
+}
+
+.img-Alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+/* @media screen and (min-width: 992px) {
+  .card-1 {
+    max-width: 15%;
+    margin: 20px;
+  }
+  .card-2 {
+    max-width: 20%;
+    margin: 20px;
+  }
+  .card-3 {
+    max-width: 20%;
+    margin: 20px;
+  }
+  .card-4 {
+    max-width: 20%;
+    margin: 20px;
+  }
+} */
